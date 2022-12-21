@@ -31,7 +31,6 @@ const props = defineProps({
 
 const isActionGroupOpen = ref(false)
 const toggleActionGroup = () => {
-  console.log('toggle')
   isActionGroupOpen.value = !isActionGroupOpen.value
 }
 </script>

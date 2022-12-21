@@ -14,8 +14,6 @@ export default function useForm () {
     isFormOpen.value = true
 
     document.getElementsByTagName('body')[0].classList.add('overflow-hidden')
-
-    console.log(route.name)
     if (route.name === 'InvoicesList') {
       router.push({ name: 'InvoicesCreate' })
     } else {

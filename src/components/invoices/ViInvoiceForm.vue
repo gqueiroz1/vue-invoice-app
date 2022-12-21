@@ -143,7 +143,6 @@ const saveButtonLabel = computed(() => {
   return `Save ${isCreation.value ? 'invoice' : 'changes'}`
 })
 const addNewInvoiceItem = () => {
-  console.log('addNEW')
   invoiceData.itemsList.push({
     itemName: '',
     quantity: 1,
