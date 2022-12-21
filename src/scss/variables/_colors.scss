@@ -1,0 +1,51 @@
+$primary: #141625;
+$primary-hover: #242842;
+$primary-contrast: #1f213a;
+$primary-contrast-hover: #31345e;
+$secondary: #7c5df9;
+$secondary-hover: #9379ff;
+$secondary-contrast: #9871fA;
+$secondary-contrast-hover: #ac98fc;
+$white: #fff;
+$positive: #4dcc82;
+$positive-hover: #5dee99;
+$positive-opacity: #4dcc8225;
+$negative: #fc2646;
+$negative-hover: #ff626f;
+$negative-opacity: #fc364625;
+$warning: #ea9532;
+$warning-hover: #faae56;
+$warning-opacity: #74491825;
+$light-gray: #dbddf4;
+$light-gray-hover: #fdfdff;
+$light-gray-opacity: #dbddf425;
+$dark-gray: #54545a;
+$dark-gray-hover: #777781;
+$dark-gray-opacity: #54545a25;
+
+:root {
+  --primary: $primary;
+  --primary-hover: $primary-hover;
+  --primary-contrast: $primary-contrast; 
+  --primary-contrast-hover: $primary-contrast-hover;
+  --secondary: $secondary;
+  --secondary-hover: $secondary-hover;
+  --secondary-contrast: $secondary-contrast
+  --secondary-contrast-hover: $secondary-contrast-hover;
+  --white: $white;
+  --positive: $positive;
+  --positive-hover: $positive-hover;
+  --positive-opacity: $positive-opacity;
+  --negative: $negative;
+  --negative-hover: $negative-hover;
+  --negative-opacity: $negative-opacity;
+  --warning: $warning;
+  --warning-hover: $warning-hover;
+  --warning-opacity: $warning-opacity;
+  --light-gray: $light-gray;
+  --light-gray-hover: $light-gray-hover;
+  --light-gray-opacity: $light-gray-opacity;
+  --dark-gray: $dark-gray;
+  --dark-gray-hover: $dark-gray-hover;
+  --dark-gray-opacity: $dark-gray-opacity;
+}

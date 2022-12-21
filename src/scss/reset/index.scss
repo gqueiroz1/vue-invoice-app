@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: $primary;
+}
+
+input, select {
+  border: none;
+}
+
+select option {
+  padding: $spacing-md;
+}
+
+input:not([disabled]):not([read-only]):focus,
+input:not([disabled]):not([read-only]):active {
+  border: 1px solid $secondary;
+}
+
+a {
+  cursor: pointer;
+}
+
+ul, li {
+  list-style: none;
+}

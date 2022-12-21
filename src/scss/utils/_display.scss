@@ -1,0 +1,76 @@
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  width: 50%;
+  padding: $spacing-sm;
+  padding-left: 90px;
+  margin: 0 auto;
+  padding-bottom: $spacing-xl;
+
+  @media (max-width: 768px) {
+    margin-bottom: 100px;
+  }
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media (max-width: 1920px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .container {
+    width: 100%;
+    padding: $spacing-lg;
+  }
+}

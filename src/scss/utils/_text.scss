@@ -1,0 +1,84 @@
+// font size
+.text-xs {
+  font-size: $text-xs;
+}
+
+.text-sm {
+  font-size: $text-sm;
+}
+
+.text-md {
+  font-size: $text-md;
+}
+
+.text-lg {
+  font-size: $text-lg;
+}
+
+.text-xl {
+  font-size: $text-xl;
+}
+
+// text color 
+.text-primary {
+  color: $primary;
+}
+
+.text-primary-contrast {
+  color: $primary-contrast;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-secondary-contrast {
+  color: $secondary-contrast;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-light-gray {
+  color: $light-gray;
+}
+
+.text-positive {
+  color: $positive;
+}
+
+.text-warning {
+  color: $warning;
+}
+
+.text-negative {
+  color: $negative;
+}
+
+// font weight
+.text-bold {
+  font-weight: bold;
+}
+
+// text alignment 
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// text formatting
+.text-underline {
+  text-decoration: underline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
